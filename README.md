@@ -22,7 +22,7 @@ $ python thumbnailer.py
 
 ### Why?
 
-I took *a lot* of pictures at the Golden Gate Relay and wanted to make a [video](https://www.youtube.com/watch?v=aACiyeQ9dFM) of them, but I needed all the pictures to line up. It was also a pretty cool learning experience for image processing.
+I took *a lot* of pictures at the [The Relay](http://www.therelay.com/) and wanted to make a [video](https://www.youtube.com/watch?v=aACiyeQ9dFM) of them, but I needed all the pictures to line up. It was also a pretty cool learning experience for image processing.
 
 #### Example
 
