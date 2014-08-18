@@ -5,13 +5,13 @@ import os
 from PIL import Image
 from progressbar import ProgressBar
 
-width, height = 1024, 678  # in px
+width, height = 300, 250  # in px
 r, g, b = 0, 0, 0  # background color, 0-255
-source_dir = 'ggr'
-targer_dir = '%s_%sx%s' % (source_dir, width, height)
+source_dir = 'sample/source'
+destination_dir = '%s_%sx%s' % (source_dir, width, height)
 
 try:
-    os.makedirs(targer_dir)
+    os.makedirs(destination_dir)
 except:
     pass
 
@@ -45,6 +45,7 @@ for filename in filelist:
     background.paste(
         image,
         ((width - image.size[0]) / 2, (height - image.size[1]) / 2))
-    background.save('%s/%s' % (targer_dir, os.path.basename(filename)), 'JPEG')
+    background.save('%s/%s' % (
+        destination_dir, os.path.basename(filename)), 'JPEG')
     count = count + 1
     progress.update(count)

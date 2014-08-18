@@ -22,4 +22,14 @@ $ python thumbnailer.py
 
 ### Why?
 
-I took *a lot* of pictures at the Golden Gate Relay and wanted to make a [video](https://www.youtube.com/watch?v=aACiyeQ9dFM) of them, but I needed all the pictures to match up.
+I took *a lot* of pictures at the Golden Gate Relay and wanted to make a [video](https://www.youtube.com/watch?v=aACiyeQ9dFM) of them, but I needed all the pictures to line up. It was also a pretty cool learning experience for image processing.
+
+#### Example
+
+##### Original
+
+![Original Picture](sample/source/harvey_bear_ranch.jpg?raw=true "Original Picture")
+
+##### Resized and Cropped
+
+![Resized and Cropped](sample/source_300x250/harvey_bear_ranch.jpg?raw=true "Resized and Cropped")
