@@ -2,6 +2,14 @@
 
 A script that takes a directory of images, resizes them to their longest side and adds borders to fill the space if they don't fit.
 
+### Installation
+
+I like using [`virtualenv`](http://virtualenv.readthedocs.org/en/latest/), but you can also just use the system python.
+
+```
+pip install -r requirements.txt
+```
+
 ### Configuration:
 
 Edit `thumbnailer.py` and set the width, height, background color, source, and target directories.
@@ -14,4 +22,4 @@ $ python thumbnailer.py
 
 ### Why?
 
-I took *a lot* of pictures at the Golden Gate Relay and wanted to [make a video](https://www.youtube.com/watch?v=aACiyeQ9dFM) of them, but I needed all the pictures to match up.
+I took *a lot* of pictures at the Golden Gate Relay and wanted to make a [video](https://www.youtube.com/watch?v=aACiyeQ9dFM) of them, but I needed all the pictures to match up.
